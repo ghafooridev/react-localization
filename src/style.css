@@ -1,0 +1,46 @@
+
+*{
+    color:#333;
+    font-family: "Trirong", serif;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.group{
+    padding:10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+min-width: 300px
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+.col{
+    display: flex;
+    gap:5px;
+    justify-content: space-between;
+}
+button{
+    border:none;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+}
